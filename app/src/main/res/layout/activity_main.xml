@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0A08">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Wallpaper"
+            android:textColor="#F0C75E"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="O teu papel de parede muda com a música"
+            android:textColor="#9C937E"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#14120E"
+            android:padding="16dp"
+            android:textColor="#EDE6D6"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnNotif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#D4A437"
+            android:text="1. Activar acesso às notificações"
+            android:textColor="#15110A" />
+
+        <Button
+            android:id="@+id/btnSetWallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#D4A437"
+            android:text="2. Definir como papel de parede"
+            android:textColor="#15110A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Desfoque (0 = nítido)"
+            android:textColor="#EDE6D6"
+            android:textSize="15sp" />
+
+        <SeekBar
+            android:id="@+id/seekBlur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:max="120" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Modo da capa"
+            android:textColor="#EDE6D6"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/modeGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/modeFull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Ecrã inteiro (capa preenche tudo)"
+                android:textColor="#EDE6D6" />
+
+            <RadioButton
+                android:id="@+id/modeCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capa centrada sobre fundo desfocado"
+                android:textColor="#EDE6D6" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Malyk Brown 2026 · Built with Claude"
+            android:textColor="#9C937E"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Wallpaper</string>
+    <string name="wallpaper_description">O papel de parede muda com a música que estás a ouvir</string>
+</resources>
